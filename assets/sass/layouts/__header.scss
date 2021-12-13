@@ -1,0 +1,33 @@
+.header{
+	background: $header-bg;
+	padding: 10px 0px;
+	border-bottom:.3px solid rgba(255,255,255,0.7) ;
+		.logo{
+			a{
+				font-weight: bold;
+				font-size: 30px;
+				color: #f9b707;
+				display: inline-block;
+			}
+		}
+		.main-menu{
+			.res-menu{
+				color: red;
+				display: none;
+			}
+			ul{
+				text-align: right;
+				li{
+					display: inline-block;
+					a{
+						display: block;
+						color: $text-dark;
+						padding: 10px 20px;
+						font-size: 14px;
+						font-weight: 500;
+					}
+				}
+			}
+		}
+
+}

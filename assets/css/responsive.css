@@ -1,0 +1,77 @@
+@media screen and (max-width: 1200px){
+	.topbar .container .topbar-left ul li{
+			padding: 0px 5px;
+		}
+	.header .logo{
+   	    text-align: center;
+   }
+   .header .main-menu ul{
+   	    text-align: center;
+   }
+
+}
+
+@media screen and (max-width: 992px){
+
+		.topbar .topbar-left ul{
+			text-align: center;
+		}
+		.topbar .topbar-right ul{
+			text-align: center;
+		}
+   
+   		.header .logo{
+   			text-align: center;
+   		}
+         .header .main-menu ul{
+            text-align: center;
+         }
+
+   		.cta .content h2{
+   			font-size: 1.5rem;
+   			font-weight: bold;
+   		}
+   		.cta .content p{
+   			font-size: 14px;
+   		}
+
+         .why .container .content {
+                padding: 0rem 0rem;
+            }
+            .slider .slider-active .single-slider .slider-content h2 {
+               font-size: 2rem;
+               font-weight: 400;
+   }
+		
+}
+@media screen and (max-width: 768px){
+   .header .logo{
+            text-align: left;
+         }
+   .header .main-menu ul{
+      display: none;
+   }
+   .header .main-menu ul li{
+      display: block;
+   }
+   .header .main-menu .res-menu{
+      display: block;
+      text-align: right;
+      margin-top: -40px;
+   }
+    .slider .slider-active .single-slider .slider-content h2 {
+     font-size: 2rem;
+     font-weight: 400;
+   }
+}
+
+@media screen and (max-width: 576px){
+   .container{
+      width: 100%;
+      max-width: 100%;
+      margin :auto;
+      padding: 0px 20px;
+   }
+
+
+
